@@ -1,0 +1,20 @@
+<!-- recorrer con directiva @for (moderna)-->
+<h1>Lista de profesores</h1>
+@for(profe of profes; track profe){
+    <li>{{profe}}</li>
+}@empty{
+    <p>No hay profesores</p>
+}
+
+<h1>Lista de productos</h1>
+@for(producto of productos; track producto){
+    <li>{{producto.nombre}} {{producto.precio}}</li>
+}@empty{
+    <p>No hay productos</p>
+}
+
+
+<h1>Datos del usuario</h1>
+@for(dato of usuario | keyvalue; track dato.key){
+    <li>{{dato.key}} {{dato.value}} </li>
+}

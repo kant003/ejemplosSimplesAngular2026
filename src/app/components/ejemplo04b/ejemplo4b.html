@@ -1,0 +1,11 @@
+<!-- directiva @if  (moderna)-->
+
+<p>El valor del numero es: {{numero}}</p>
+<button (click)="incrementar()">Incrementar</button>
+<button (click)="decrementar()">Decrementar</button>
+
+@if(isEven()){
+    <p>el numero es par </p>
+}@else{
+    <p>el numero es impar </p>
+}

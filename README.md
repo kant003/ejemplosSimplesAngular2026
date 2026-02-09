@@ -1,3 +1,16 @@
+
+Instalar angular
+npm install -g @angular/cli
+
+Crear un nuevo proyecto angular
+ng new proyecto --routing
+
+Crear un nuevo componente
+ng genera component elComponente
+
+
+
+
 # TeoriaAngularBase2026
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.5.
